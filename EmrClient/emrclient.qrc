@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/EmrClient">
+        <file alias="ButtonDownRelease">Resources/down_0.png</file>
+        <file alias="ButtonDownPress">Resources/down_1.png</file>
+        <file alias="ButtonUpRelease">Resources/up_0.png</file>
+        <file alias="ButtonUpPress">Resources/up_1.png</file>
+        <file alias="ButtonMiddleRelease">Resources/middle_0.png</file>
+        <file alias="ButtonMiddlePress">Resources/middle_1.png</file>
+        <file alias="ArrowUnchoose">Resources/arrow_line_unchoose.png</file>
+        <file alias="FreelineUnchoose">Resources/free_line_unchoose.png</file>
+        <file alias="LineUnchoose">Resources/point_line_unchoose.png</file>
+        <file alias="SaveUnchoose">Resources/save_unchoose.png</file>
+        <file alias="TxtUnchoose">Resources/txt_unchoose.png</file>
+        <file>Resources/enter.png</file>
+        <file alias="CircularUnchoose">Resources/circular_unchoose.png</file>
+        <file alias="EllipseUnchoose">Resources/ellipse_unchoose.png</file>
+        <file alias="AttributeSet">Resources/round_set.png</file>
+        <file alias="RoundRect">Resources/roundRect_unchoose.png</file>
+    </qresource>
+</RCC>

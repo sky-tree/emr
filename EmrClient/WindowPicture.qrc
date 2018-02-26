@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>Res/MenuIcon/AlignCenter.png</file>
+        <file>Res/MenuIcon/AlignLeft.png</file>
+        <file>Res/MenuIcon/AlignRight.png</file>
+        <file>Res/MenuIcon/bold.png</file>
+        <file>Res/MenuIcon/case.png</file>
+        <file>Res/MenuIcon/ClearGrid.png</file>
+        <file>Res/MenuIcon/copy.png</file>
+        <file>Res/MenuIcon/do.png</file>
+        <file>Res/MenuIcon/down.png</file>
+        <file>Res/MenuIcon/formRegionSave.png</file>
+        <file>Res/MenuIcon/italic.png</file>
+        <file>Res/MenuIcon/paste.png</file>
+        <file>Res/MenuIcon/scissors.png</file>
+        <file>Res/MenuIcon/tilt.png</file>
+        <file>Res/MenuIcon/underline.png</file>
+        <file>Res/MenuIcon/undo.png</file>
+        <file>Res/MenuIcon/up.png</file>
+        <file>Res/MenuIcon/pinclose.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_black.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_blue.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_deepblue.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_deepred.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_deepyellow.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_gray.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_green.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_red.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_white.png</file>
+        <file>Res/MenuIcon/textcolor/textcolor_yellow.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_black.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_blue.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_deepblue.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_deepred.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_deepyellow.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_gray.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_green.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_red.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor_white.png</file>
+        <file>Res/MenuIcon/backgroundcolor/backgroundcolor-yellow.png</file>
+        <file>Res/MenuIcon/AlignBottom.png</file>
+        <file>Res/MenuIcon/AlignMiddle.png</file>
+        <file>Res/MenuIcon/AlignTop.png</file>
+    </qresource>
+</RCC>

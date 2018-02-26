@@ -1,0 +1,2 @@
+hospitalTitle=³±Ñô¸¾Ó×±£½¡Ôº
+confing=test

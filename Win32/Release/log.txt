@@ -1,0 +1,1 @@
+Warning: File:() Line:(0) QWidget::setLayout: Cannot set layout to 0 (2018-01-25 14:35:57 ÖÜËÄ)

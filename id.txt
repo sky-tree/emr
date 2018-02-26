@@ -1,0 +1,63 @@
+
+		static const int ROOT_TEMP = 0;					// 根temp
+		static const int TITLE_TEMP = 100;					// 页眉temp
+		static const int BOTTOM_TEMP = 101;					// 页脚temp
+		static const int CONTENT_TEMP = 102;					// 页内容temp
+
+		static const int TITLE_TEMP_CONTAINER = 200;				// 页眉下的1级子temp容器
+		static const int BOTTOM_TEMP_CONTAINER = 201;			// 页脚下的1级子temp容器
+		static const int NORMAL_TEMP_CONTAINER = 202;			// 页内容下的1级子temp容器
+		EXCEL_CONTENT_NORMAL_TEMP_CONTAINER = 212;			// 表格单元格页内容下的1级子temp容器
+
+		NORMAL_PARAGRAPH = 9999999					//普通段落
+
+		static const int ROOT_VIEW = 10000000;					// 根view
+		static const int TXT_WIN_VIEW = 10000100;				// txt窗口
+
+		static const int PAGE_PANEL = 10000500;					// 页面板
+		static const int SCROLL_PANEL = 10000501;				// 拖动面板
+
+		static const int NORMAL_PAGE = 10000600;				// 普通页
+		static const int PAGE_TITLE = 10000700;					// 页眉
+		static const int PAGE_BOTTOM = 10000701;				// 页脚
+		static const int PAGE_CONTENT = 10000702;				// 页内容
+		static const int TITLE_BOTTOM_TXT_LAYER = 10000800;			// 页眉、页脚文字层
+		static const int CONTENT_TXT_LAYER = 10000801;			// 页内容文字层
+		static const int EXCEL_TXT_LAYER = 10000802;				// 表格文字层
+		static const int PAGE_NUMBER = 10000803;				// 页码
+		static const int PAGE_CONTENT_ROW = 10000900;				// 页内容行
+
+		/******************************* 按钮：10100000-10199999 ************************************/
+		static const int SCROLL_BUTTON_UP = 10100000;						//滚动条按钮上
+		static const int SCROLL_BUTTON_MIDDLE = 10100001;					//滚动条按钮中
+		static const int SCROLL_BUTTON_DOWN = 10100002;						//滚动条按钮下
+		static const int SCROLL_BUTTON_MIDDLE_BAR = 10100004;					//滚动条按钮中
+		/******************************* 具体行上的view对象：18000000-18999999 ************************************/
+		static const int ENTER = 18000000;					// 18000000、enter
+		static const int TXT = 18000001;						// 18000001、文字
+		static const int TMPLATE_TXT= TXT + 1;					// 18000002、元素、文字
+		static const int PAGE_NUMBER TMPLATE_TXT= TMPLATE_TXT= + 1;				// 18000003、页码
+		static const int IMG = 18000005;						// 18000005、图片
+		static const int EXCEL_ROW_VIEW = 18000020;				// 表格行
+		static const int EXCEL_PAGE = EXCEL_ROW_VIEW + 1;                		// 18000021、表单元格
+
+		static const int HORIZONTAL_LINE = 18000030;                			// 18000030、横线
+		static const int END_PAGE_LINE = HORIZONTAL_LINE + 1;                		// 18000031、分页符
+
+		static const int FLAG = 18000060;					// flag
+		static const int TEMPLATE_VIEW_OBJ = FLAG + 1;				//模板视图对象
+
+		/******************************* 模板元素：10003000-10005000************************************/
+		static const int TEMPLETE_MAX = 10005000;                          //模板元素最大值，
+		static const int TXT_Widget = 10003000;								//文本
+		static const int BRAKETWIDGET_TEMPLETE = TXT_Widget + 1;					//10003001、带括号文本
+		static const int INPUT_TEXT_TEMPLETE = BRAKETWIDGET_TEMPLETE + 1;					//10003002、输入文本
+		static const int FIX_TEXT_WIDGET_TEMPLETE = INPUT_TEXT_TEMPLETE + 1;					//10003003、固定文本
+		static const int  STRUCTURATION_TEXT_TEMPLETE_OBJ = FIX_TEXT_WIDGET_TEMPLETE + 1;			//10003004、结构化文本
+		static const int MACRO_TEXT_TEMPLETE_OBJ = STRUCTURATION_TEXT_TEMPLETE_OBJ + 1;  //10003005、宏元素文本
+		static const int TIME_TEXT_WIDGET_TEMPLETE = MACRO_TEXT_TEMPLETE_OBJ + 1;  //10003006、时间控件
+		static const int  MENSTRUATION_TEXT_TEMPLETE_OBJ = TIME_TEXT_WIDGET_TEMPLETE + 1;  //10003007、公式文本
+		static const int TEXT_WIDGET_TEMPLETE = MENSTRUATION_TEXT_TEMPLETE_OBJ + 1;			//10003008、文本元素
+		static const int CHOICE_TEXT_TEMPLETE_OBJ = TEXT_WIDGET_TEMPLETE + 1;			//10003009、选择项文本
+		static const int TEXT_WIDGET_AND_NUMBER_FILTER_TEMPLETE = CHOICE_TEXT_TEMPLETE_OBJ + 1; //10003010、结构化文本
+		static const int  EXCEL_CELL_TEMPLETE = TEXT_WIDGET_AND_NUMBER_FILTER_TEMPLETE + 1;    //10003011、表格单元格模板

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Inspection</class>
+ <widget class="QWidget" name="Inspection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>检验/检查</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">.QPushButton{background-color:rgb(137,203,235);border-style: solid}
+.QPushButton:hover{background-color:rgb(154, 205, 252);}
+.QPushButton:pressed{background-color:rgb(141, 184, 6, 200);}
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget{background-color:rgb(255,255,255);}
+
+QTabBar::tab{
+         background: qlineargradient(x1:0,y1:0,x2:0,y2:1, 
+         stop:0 rgb(137,203,235),stop: 0.4 rgb(137,203,235),
+         stop:0.5 rgb(137,203,235),stop:1.0 rgb(137,203,235));
+         border:1px solid rgb(137,203,235);
+         border-bottom-color:rgb(137,203,235); 
+         border-top-left-radius: 0px;
+         border-top-right-radius: 0px;
+         min-width:20ex;
+         padding: 0px;
+         min-height:8ex;}
+QTabBar::tab:selected,QTabBar::close-button:hover{
+background:qlineargradient(x1:0,y1:0,x2:0,y2:1,
+	 		 stop:0 rgb(255,242,157), stop:0.4 rgb(255,242,157),
+			 stop:0.5 rgb(255,242,157), stop:1.0 rgb(255,242,157));
+			 }
+QTabBar::tab:selected { 
+			 border-color: rgb(137,203,235);
+			 border-bottom-color:rgb(137,203,235);color:black;
+             margin-left:1px;
+			margin-right:1px;margin-top: 1px;
+			  }
+QTabBar::tab:!selected {
+			 margin-top: 1px;
+			}
+QTabBar::tab:first:selected {
+			 margin-left: 1;}
+QTabBar::tab:last:selected {
+			 margin-right:1;}
+QTabBar::tab:only-one{ margin-top: 1px;}</string>
+        </property>
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>检验</string>
+         </attribute>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QTableWidget" name="tableWidget_inspect"/>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>检查</string>
+         </attribute>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QTableWidget" name="tableWidget_exmine"/>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>微生物检验</string>
+         </attribute>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QTableWidget" name="tableWidget_inspectMicro"/>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>378</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_OK">
+         <property name="minimumSize">
+          <size>
+           <width>81</width>
+           <height>31</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>确定</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_Cancel">
+         <property name="minimumSize">
+          <size>
+           <width>81</width>
+           <height>31</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton{background-color:rgb(137,203,235);}
+.QPushButton:hover{background-color:rgb(154, 205, 252);}
+</string>
+         </property>
+         <property name="text">
+          <string>取消</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

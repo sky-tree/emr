@@ -1,0 +1,1230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetParagraphFloatParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetParagraphIndentParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetParagraphIntParams.cpp" />
+    <ClCompile Include="EditImageWindow\Method\Arrow\ArrowItem.cpp" />
+    <ClCompile Include="EditImageWindow\Method\Circular\CircularItem.cpp" />
+    <ClCompile Include="EditImageWindow\Method\FreeLine\FreeLineItem.cpp" />
+    <ClCompile Include="EditImageWindow\Method\Line\LineItem.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetSysSignalParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetSysStrParams.cpp" />
+    <ClCompile Include="EMR\obj\action\SetParagraphFloatParamAction.cpp" />
+    <ClCompile Include="EMR\obj\action\SetParagraphIndentParamAction.cpp" />
+    <ClCompile Include="EMR\obj\action\SetParagraphIntParamAction.cpp" />
+    <ClCompile Include="EMR\obj\view\data\BaseEditParam.cpp" />
+    <ClCompile Include="commonWidgets\TabWidgetCollection.cpp" />
+    <ClCompile Include="customDelegate\ccinputcombobox.cpp" />
+    <ClCompile Include="customDelegate\CustomComboBoxDelegate.cpp" />
+    <ClCompile Include="customDelegate\CustomLineEditNumbersDelegate.cpp" />
+    <ClCompile Include="customDelegate\custompushbutton.cpp" />
+    <ClCompile Include="customDelegate\CustomSpinBoxDelegate.cpp" />
+    <ClCompile Include="customDelegate\CustomTableView.cpp" />
+    <ClCompile Include="customDelegate\TreeItemMimeData.cpp" />
+    <ClCompile Include="customDelegate\treeWidget.cpp" />
+    <ClCompile Include="dataModel\DataModel\test.cpp" />
+    <ClCompile Include="dataModel\DBDataModel\DBManager.cpp" />
+    <ClCompile Include="dataModel\hisDataModel\BaseDictDataModel.cpp" />
+    <ClCompile Include="dataModel\OperateData\DataBaseControl.cpp" />
+    <ClCompile Include="dataModel\RequestJsonDataModel.cpp" />
+    <ClCompile Include="EMR\Cursor.cpp" />
+    <ClCompile Include="EMR\data\SystemParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetSysBoolParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetTxtBoolParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetTxtIntParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetTxtMultipleIntParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetTxtStrParams.cpp" />
+    <ClCompile Include="EMR\factory\ActionFactory.cpp" />
+    <ClCompile Include="EMR\factory\DrawFactory.cpp" />
+    <ClCompile Include="EMR\obj\action\DelObjListAction.cpp" />
+    <ClCompile Include="EMR\obj\action\SetSysBoolParamAction.cpp" />
+    <ClCompile Include="EMR\obj\action\SetTxtMultipleNumParamAction.cpp" />
+    <ClCompile Include="EMR\obj\action\SetTxtNumParamAction.cpp" />
+    <ClCompile Include="EMR\obj\action\SetTxtStrParamAction.cpp" />
+    <ClCompile Include="EMR\output\HtmlDocument.cpp" />
+    <ClCompile Include="EMR\obj\action\AddObjListAction.cpp" />
+    <ClCompile Include="EMR\obj\action\BaseAction.cpp" />
+    <ClCompile Include="EMR\obj\htmlObj\htmlBaseObj.cpp" />
+    <ClCompile Include="EMR\obj\manager\ActionMgr.cpp" />
+    <ClCompile Include="EMR\obj\manager\StepActionManger.cpp" />
+    <ClCompile Include="EMR\obj\view\data\BaseScaleParam.cpp" />
+    <ClCompile Include="EMR\constants\ConstantsNumber.cpp" />
+    <ClCompile Include="EMR\constants\StrConstants.cpp" />
+    <ClCompile Include="EMR\data\LayoutReplaceData.cpp" />
+    <ClCompile Include="EMR\data\LayoutReplaceManager.cpp" />
+    <ClCompile Include="EMR\factory\InputFactory.cpp" />
+    <ClCompile Include="EMR\obj\temp\BaseParagraph.cpp" />
+    <ClCompile Include="EMR\obj\temp\childrenMgr\TempContainerMgr.cpp" />
+    <ClCompile Include="EMR\obj\temp\data\ParagraphData.cpp" />
+    <ClCompile Include="EMR\data\FlagParam.cpp" />
+    <ClCompile Include="EMR\obj\temp\ParagraphManager.cpp" />
+    <ClCompile Include="EMR\obj\view\data\content\StrContentData.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\FlagViewParam.cpp" />
+    <ClCompile Include="EMR\obj\view\draw\DrawButton.cpp" />
+    <ClCompile Include="EMR\obj\view\draw\DrawImage.cpp" />
+    <ClCompile Include="EMR\obj\view\draw\DrawLine.cpp" />
+    <ClCompile Include="EMR\obj\view\draw\DrawStr.cpp" />
+    <ClCompile Include="EMR\obj\view\input\BaseKey.cpp" />
+    <ClCompile Include="EMR\obj\view\input\BaseMouse.cpp" />
+    <ClCompile Include="emrclient.cpp" />
+    <ClCompile Include="EMR\constants\BaseConstants.cpp" />
+    <ClCompile Include="EMR\constants\UIConstants.cpp" />
+    <ClCompile Include="EMR\data\BasePointData.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\BaseUIMsgData.cpp" />
+    <ClCompile Include="EMR\data\GlobalImgData.cpp" />
+    <ClCompile Include="EMR\data\MousePressParams.cpp" />
+    <ClCompile Include="EMR\data\uiMsg\UIMsgResizeWindow.cpp" />
+    <ClCompile Include="EMR\factory\TempleteFactory.cpp" />
+    <ClCompile Include="EMR\factory\ViewFactory.cpp" />
+    <ClCompile Include="EMR\obj\BaseContainerParam.cpp" />
+    <ClCompile Include="EMR\obj\BaseElement.cpp" />
+    <ClCompile Include="EMR\obj\data\BaseContentData.cpp" />
+    <ClCompile Include="EMR\obj\temp\data\CodeTempData.cpp" />
+    <ClCompile Include="EMR\obj\temp\data\TempParagraphMgrData.cpp" />
+    <ClCompile Include="EMR\obj\view\data\content\ImgContentData.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\BaseViewParam.cpp" />
+    <ClCompile Include="EMR\obj\view\data\content\TxtWinData.cpp" />
+    <ClCompile Include="EMR\obj\logic\BaseLogic.cpp" />
+    <ClCompile Include="EMR\obj\manager\BaseChildrenManager.cpp" />
+    <ClCompile Include="EMR\obj\view\data\RelativeChildrenParam.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\ImgViewParam.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\LayoutViewParam.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\RowViewParam.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\TxtViewParam.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\VerticalViewParam.cpp" />
+    <ClCompile Include="EMR\obj\view\draw\BaseDraw.cpp" />
+    <ClCompile Include="EMR\obj\view\draw\DrawRect.cpp" />
+    <ClCompile Include="EMR\obj\view\input\TxtWindowMouse.cpp" />
+    <ClCompile Include="EMR\obj\view\layout\BaseLayout.cpp" />
+    <ClCompile Include="EMR\obj\view\layout\BaseTxtLayerLayout.cpp" />
+    <ClCompile Include="EMR\obj\view\layout\PageContentTxtLayerLayout.cpp" />
+    <ClCompile Include="EMR\obj\view\layout\RowLayout.cpp" />
+    <ClCompile Include="EMR\obj\view\layout\VerticalLayout.cpp" />
+    <ClCompile Include="EMR\obj\view\layout\RelativeLayout.cpp" />
+    <ClCompile Include="EMR\obj\view\manager\CrossParentMgr.cpp" />
+    <ClCompile Include="EMR\obj\view\manager\ObjKeyManager.cpp" />
+    <ClCompile Include="EMR\obj\manager\LogicManager.cpp" />
+    <ClCompile Include="EMR\obj\view\manager\ObjMouseManager.cpp" />
+    <ClCompile Include="EMR\obj\view\manager\ObjDrawManager.cpp" />
+    <ClCompile Include="EMR\obj\view\manager\TxtWinDrawManager.cpp" />
+    <ClCompile Include="EMR\obj\view\ViewObj.cpp" />
+    <ClCompile Include="EMR\system\BaseMath.cpp" />
+    <ClCompile Include="EMR\system\BaseSystem.cpp" />
+    <ClCompile Include="EMR\system\BaseTools.cpp" />
+    <ClCompile Include="EMR\system\BaseIOTools.cpp" />
+    <ClCompile Include="EMR\templeteElement\BaseTempleteKeyboard.cpp" />
+    <ClCompile Include="EMR\templeteElement\BaseTempleteMouse.cpp" />
+    <ClCompile Include="EMR\templeteElement\BracketWidget\BracketWidget.cpp" />
+    <ClCompile Include="EMR\templeteElement\BracketWidget\BracketWidgetKeyboard.cpp" />
+    <ClCompile Include="EMR\templeteElement\ChoiceWidget\ChoiceWidgetTemplete.cpp" />
+    <ClCompile Include="EMR\templeteElement\ChoiceWidget\ChoiceWidgetTempleteParam.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelBaseLayout.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelCellData.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelCellDataRow.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelKeyboard.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelLayout.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelLayoutViewParam.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelMouseInputManager.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelTemplete.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\Line.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\MeasureWH.cpp" />
+    <ClCompile Include="EMR\templeteElement\Excel\SelectView.cpp" />
+    <ClCompile Include="EMR\templeteElement\Formula\Menstruation\MenStruationDataParam.cpp" />
+    <ClCompile Include="EMR\templeteElement\Formula\Menstruation\MenstruationTemplete.cpp" />
+    <ClCompile Include="EMR\templeteElement\Formula\TempleteRowParam.cpp" />
+    <ClCompile Include="EMR\templeteElement\MacroWidget\MacroTemplete.cpp" />
+    <ClCompile Include="EMR\templeteElement\MacroWidget\MacroTempleteParam.cpp" />
+    <ClCompile Include="EMR\templeteElement\Structuration\StructurationTextParam.cpp" />
+    <ClCompile Include="EMR\templeteElement\Structuration\StructurationTextWidget.cpp" />
+    <ClCompile Include="EMR\templeteElement\TempleteTypeEnumeration.cpp" />
+    <ClCompile Include="EMR\templeteElement\TempleteViewObj.cpp" />
+    <ClCompile Include="EMR\templeteElement\TempleteViewObjMouseManager.cpp" />
+    <ClCompile Include="EMR\templeteElement\TextWidget\InputFilter.cpp" />
+    <ClCompile Include="EMR\templeteElement\TextWidget\NoCopyTextWidget.cpp" />
+    <ClCompile Include="EMR\templeteElement\TextWidget\NumberInputFilter.cpp" />
+    <ClCompile Include="EMR\templeteElement\TextWidget\TextWidget.cpp" />
+    <ClCompile Include="EMR\templeteElement\TextWidget\TextWidgetKeyboard.cpp" />
+    <ClCompile Include="EMR\templeteElement\TextWidget\TextWidgetMouse.cpp" />
+    <ClCompile Include="EMR\templeteElement\TextWidget\TextWidgetParam.cpp" />
+    <ClCompile Include="EMR\entrance\UIInputManager.cpp" />
+    <ClCompile Include="EMR\entrance\WriterInputManager.cpp" />
+    <ClCompile Include="EMR\entrance\WriterManager.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_addmubandlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_ccinputcombobox.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_cellpropertydlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_CellSplitDlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_CommonNetWorkingRunnable.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_continueprintdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_CreateTableDlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomComboBoxDelegate.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomLineEditNumbersDelegate.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_custompushbutton.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomSpinBoxDelegate.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomTableView.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_DBManager.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_emrclient.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_FormulaDlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_HtmlDocument.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_inputpromptdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_inspection.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_keyworddlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MacroPropertyPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainViewContainer.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_mubaneditdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MubanEditManagement.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MubanPropertyModifyDlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyAppEntrance.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_pagesettingdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_ParagraphSettingPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_PictureEditWindow.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_parserrunnable.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_pharmacyapp.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_pharmacyWithdrawalApplication.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_RightClickMenu.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_SelectionPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_selectionpropertydlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_selectmubandlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_serializerrunnable.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_SimpleElementSettingWidget.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_specialsymbol.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_structuringdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_StructuringPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_tablepropertydlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_TabWidgetCollection.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_toolbarclass.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_TreeItemMimeData.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_treeWidget.cpp" />
+    <ClCompile Include="GeneratedFiles\qrc_emrclient.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_addmubandlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_ccinputcombobox.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_cellpropertydlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_CellSplitDlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_CommonNetWorkingRunnable.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_continueprintdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_CreateTableDlg.cpp" />
+    <ClCompile Include="EMR\obj\view\input\ImageMouseInput.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomComboBoxDelegate.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomLineEditNumbersDelegate.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_custompushbutton.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomSpinBoxDelegate.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomTableView.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_DBManager.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_FormulaDlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_HtmlDocument.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_inputpromptdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_inspection.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_keyworddlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_MacroPropertyPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_MainViewContainer.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_mubaneditdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_MubanEditManagement.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_MubanPropertyModifyDlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_pagesettingdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_ParagraphSettingPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_PictureEditWindow.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_parserrunnable.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_pharmacyapp.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_pharmacyWithdrawalApplication.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_RightClickMenu.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_SelectionPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_selectionpropertydlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_selectmubandlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_serializerrunnable.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_SimpleElementSettingWidget.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_specialsymbol.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_structuringdlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_StructuringPopup.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_tablepropertydlg.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_TabWidgetCollection.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_toolbarclass.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_TreeItemMimeData.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_treeWidget.cpp" />
+    <ClCompile Include="EMR\obj\action\ImageScaleAction.cpp" />
+    <ClCompile Include="inspection.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="EMR\entrance\MyAppEntrance.cpp" />
+    <ClCompile Include="EMR\templeteElement\TempleteViewObjKeyManager.cpp" />
+    <ClCompile Include="EMR\obj\view\layout\ScrollPlaceLayout.cpp" />
+    <ClCompile Include="EditImageWindow\Method\Txt\TextItem.cpp" />
+    <ClCompile Include="EditImageWindow\Method\Pix\PixmapItem.cpp" />
+    <ClCompile Include="propertySettingDlgs\CreateTableDlg.cpp" />
+    <ClCompile Include="EMR\obj\view\data\viewParam\MiddleButtonViewParam.cpp" />
+    <ClCompile Include="tools\CommonNetWorkingRunnable.cpp" />
+    <ClCompile Include="tools\ConstCollection.cpp" />
+    <ClCompile Include="tools\HisConstCollection.cpp" />
+    <ClCompile Include="tools\qjson\json_parser.cc" />
+    <ClCompile Include="tools\qjson\json_scanner.cpp" />
+    <ClCompile Include="tools\qjson\parser.cpp" />
+    <ClCompile Include="tools\qjson\parserrunnable.cpp" />
+    <ClCompile Include="tools\qjson\qobjecthelper.cpp" />
+    <ClCompile Include="tools\qjson\serializer.cpp" />
+    <ClCompile Include="tools\qjson\serializerrunnable.cpp" />
+    <ClCompile Include="views\addmubandlg.cpp" />
+    <ClCompile Include="views\continueprintdlg.cpp" />
+    <ClCompile Include="views\flowlayout.cpp" />
+    <ClCompile Include="views\globalvariable.cpp" />
+    <ClCompile Include="views\mubaneditdlg.cpp" />
+    <ClCompile Include="views\MubanEditManagement.cpp" />
+    <ClCompile Include="views\MubanPropertyModifyDlg.cpp" />
+    <ClCompile Include="views\NavigationView.cpp" />
+    <ClCompile Include="views\pharmacyapp.cpp" />
+    <ClCompile Include="views\pharmacyManagement\pharmacyWithdrawalApplication.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\attributeClick.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\cellpropertydlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\CellSplitDlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\CreateTableDlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\FormulaDlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\inputpromptdlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\keyworddlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\MacroPropertyPopup.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\pagesettingdlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\ParagraphSettingPopup.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\RightClickMenu.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\SelectionPopup.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\selectionpropertydlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\specialsymbol.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\structuringdlg.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\StructuringPopup.cpp" />
+    <ClCompile Include="views\propertySettingDlgs\tablepropertydlg.cpp" />
+    <ClCompile Include="views\selectmubandlg.cpp" />
+    <ClCompile Include="views\SimpleElementSettingWidget.cpp" />
+    <ClCompile Include="renamepopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_renamepopup.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_renamepopup.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_WindowPicture.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\view\draw\DrawRowTop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\view\draw\DrawRowBottom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetTxtWidgetElementAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetWidgetElementPropertyAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\FileData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\AddTempletWidgetAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetChoiceWidgetAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetMacroWidgetAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetMenstruationWidgetAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\ExcelCellChangeLineAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\LineMoveAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\ExcelRelayoutAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetFocusAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\NewOrDeleteCellDataAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\NewOrDeleteLineAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetExcelCellPropertyAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetExcelPropertyAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetSysIntParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\uiMsg\ShortcutKeyInputParam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\logic\FlagFlashLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\factory\LogicFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\view\manager\TxtWinLogicManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetPagePropertyAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WriterManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WriterManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetParagraphOtherParamAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelCellPageMouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\view\manager\ExcelCrossParentMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MessageBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MessageBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\output\htmlOutPutManger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\uiMsg\SetAutorityInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\templeteElement\Excel\ExcelTempleteParamData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\uiMsg\UIMsgSetPageParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditImageWindow\Scene\MyGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\temp\BaseTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UIInputManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UIInputManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\entrance\OperateMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\uiMsg\UIMsgMedicalRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditImageWindow\PictureEditWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\logic\JudgePagePanelScrollLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\view\input\ButtonInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\view\draw\DarwHorizontalLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditImageWindow\Method\Ellipse\EllipseItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditImageWindow\Method\Rect\RoundRectItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditImageWindow\Dialog\AttributeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AttributeDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AttributeDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\BaseContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\data\CodeParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\temp\childrenMgr\NodeMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\data\NodeParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\temp\childrenMgr\NodeChildrenMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\UserInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\PatientInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\data\ParagraphCodeParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\factory\ContentDataFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="views\MainViewContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\ExcelVerticalLayoutAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetSysIntParamAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\uiMsg\UIMsgFindAndReplaceParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\templeteElement\unfoldChoiceWidget\UnfoldChoiceButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\templeteElement\unfoldChoiceWidget\UnfoldChoiceWidgetTemplete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\CrashStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\entrance\AutoSaveMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\templeteElement\unfoldChoiceWidget\ChoiceItemTextWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\obj\action\SetUnfoldChoiceWidgetAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\templeteElement\unfoldChoiceWidget\UnfoldChoiceWidgetTempleteParam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_emrversion.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_emrversion.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="views\emrversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\entrance\WriterLogicMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\CompressTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quagzipfile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quagzipfile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quaziodevice.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quaziodevice.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quazipfile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quazipfile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\unzip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\JlCompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\qioapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quaadler32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quacrc32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quagzipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quaziodevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipdir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipfileinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipnewinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\authority\AuthorityData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EMR\data\authority\AuthorityViewLineAndStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="views\adminlogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_adminlogin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_adminlogin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="toolbarclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\emr\EmrAndHis_New1\EMR\Qt_HisClient\Qt_HisClient\EMR\Header Files\obj\factory\InputFactory.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetParagraphFloatParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetParagraphIndentParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetParagraphIntParams.h" />
+    <ClInclude Include="EditImageWindow\Method\Arrow\ArrowItem.h" />
+    <ClInclude Include="EditImageWindow\Method\Circular\CircularItem.h" />
+    <ClInclude Include="EditImageWindow\Method\FreeLine\FreeLineItem.h" />
+    <ClInclude Include="EditImageWindow\Method\Line\LineItem.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetSysSignalParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetSysStrParams.h" />
+    <ClInclude Include="EMR\obj\action\SetParagraphFloatParamAction.h" />
+    <ClInclude Include="EMR\obj\action\SetParagraphIndentParamAction.h" />
+    <ClInclude Include="EMR\obj\action\SetParagraphIntParamAction.h" />
+    <ClInclude Include="EMR\obj\view\data\BaseEditParam.h" />
+    <ClInclude Include="customDelegate\MSC_VER.h" />
+    <ClInclude Include="dataModel\BaseDataType.h" />
+    <ClInclude Include="dataModel\hisDataModel\BaseDictDataModel.h" />
+    <ClInclude Include="dataModel\metaData.h" />
+    <ClInclude Include="dataModel\OperateData\DataBaseControl.h" />
+    <ClInclude Include="dataModel\RequestJsonDataModel.h" />
+    <ClInclude Include="EMR\constants\AuthorityConstants.h" />
+    <ClInclude Include="EMR\Cursor.h" />
+    <ClInclude Include="EMR\data\SystemParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetSysBoolParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetTxtBoolParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetTxtIntParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetTxtMultipleIntParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetTxtStrParams.h" />
+    <ClInclude Include="EMR\factory\ActionFactory.h" />
+    <ClInclude Include="EMR\factory\ContentDataFactory.h" />
+    <ClInclude Include="EMR\factory\DrawFactory.h" />
+    <ClInclude Include="EMR\obj\action\AddObjListAction.h" />
+    <ClInclude Include="EMR\obj\action\BaseAction.h" />
+    <ClInclude Include="EMR\obj\action\DelObjListAction.h" />
+    <ClInclude Include="EMR\obj\action\SetSysBoolParamAction.h" />
+    <ClInclude Include="EMR\obj\action\SetTxtMultipleNumParamAction.h" />
+    <ClInclude Include="EMR\obj\action\SetTxtNumParamAction.h" />
+    <ClInclude Include="EMR\obj\action\SetTxtStrParamAction.h" />
+    <ClInclude Include="EMR\obj\htmlObj\htmlBaseObj.h" />
+    <ClInclude Include="EMR\obj\manager\ActionMgr.h" />
+    <ClInclude Include="EMR\obj\manager\StepActionManger.h" />
+    <ClInclude Include="EMR\obj\view\data\BaseScaleParam.h" />
+    <ClInclude Include="EMR\constants\ConstantsNumber.h" />
+    <ClInclude Include="EMR\constants\StrConstants.h" />
+    <ClInclude Include="EMR\data\LayoutReplaceData.h" />
+    <ClInclude Include="EMR\data\LayoutReplaceManager.h" />
+    <ClInclude Include="EMR\factory\InputFactory.h" />
+    <ClInclude Include="EMR\obj\temp\BaseParagraph.h" />
+    <ClInclude Include="EMR\obj\temp\BaseTemplate.h" />
+    <ClInclude Include="EMR\obj\temp\childrenMgr\TempContainerMgr.h" />
+    <ClInclude Include="EMR\obj\temp\data\ParagraphData.h" />
+    <ClInclude Include="EMR\data\FlagParam.h" />
+    <ClInclude Include="EMR\obj\temp\ParagraphManager.h" />
+    <ClInclude Include="EMR\obj\view\data\content\StrContentData.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\FlagViewParam.h" />
+    <ClInclude Include="EMR\obj\view\draw\DrawButton.h" />
+    <ClInclude Include="EMR\obj\view\draw\DrawImage.h" />
+    <ClInclude Include="EMR\obj\view\draw\DrawLine.h" />
+    <ClInclude Include="EMR\obj\view\draw\DrawStr.h" />
+    <ClInclude Include="EMR\obj\view\input\BaseKey.h" />
+    <ClInclude Include="EMR\obj\view\input\BaseMouse.h" />
+    <ClInclude Include="EMR\constants\BaseConstants.h" />
+    <ClInclude Include="EMR\constants\ConstantsID.h" />
+    <ClInclude Include="EMR\constants\UIConstants.h" />
+    <ClInclude Include="EMR\data\BasePointData.h" />
+    <ClInclude Include="EMR\data\uiMsg\BaseUIMsgData.h" />
+    <ClInclude Include="EMR\data\GlobalImgData.h" />
+    <ClInclude Include="EMR\data\MousePressParams.h" />
+    <ClInclude Include="EMR\data\uiMsg\UIMsgResizeWindow.h" />
+    <ClInclude Include="EMR\factory\TempleteFactory.h" />
+    <ClInclude Include="EMR\factory\ViewFactory.h" />
+    <ClInclude Include="EMR\obj\BaseContainer.h" />
+    <ClInclude Include="EMR\obj\BaseContainerParam.h" />
+    <ClInclude Include="EMR\obj\BaseElement.h" />
+    <ClInclude Include="EMR\obj\data\BaseContentData.h" />
+    <ClInclude Include="EMR\obj\temp\data\CodeTempData.h" />
+    <ClInclude Include="EMR\obj\temp\data\TempParagraphMgrData.h" />
+    <ClInclude Include="EMR\obj\view\data\content\ImgContentData.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\BaseViewParam.h" />
+    <ClInclude Include="EMR\obj\view\data\content\TxtWinData.h" />
+    <ClInclude Include="EMR\obj\logic\BaseLogic.h" />
+    <ClInclude Include="EMR\obj\manager\BaseChildrenManager.h" />
+    <ClInclude Include="EMR\obj\view\data\RelativeChildrenParam.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\ImgViewParam.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\LayoutViewParam.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\RowViewParam.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\TxtViewParam.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\VerticalViewParam.h" />
+    <ClInclude Include="EMR\obj\view\draw\BaseDraw.h" />
+    <ClInclude Include="EMR\obj\view\draw\DrawRect.h" />
+    <ClInclude Include="EMR\obj\view\input\TxtWindowMouse.h" />
+    <ClInclude Include="EMR\obj\view\layout\BaseLayout.h" />
+    <ClInclude Include="EMR\obj\view\layout\BaseTxtLayerLayout.h" />
+    <ClInclude Include="EMR\obj\view\layout\PageContentTxtLayerLayout.h" />
+    <ClInclude Include="EMR\obj\view\layout\RowLayout.h" />
+    <ClInclude Include="EMR\obj\view\layout\VerticalLayout.h" />
+    <ClInclude Include="EMR\obj\view\layout\RelativeLayout.h" />
+    <ClInclude Include="EMR\obj\view\manager\CrossParentMgr.h" />
+    <ClInclude Include="EMR\obj\view\manager\ObjKeyManager.h" />
+    <ClInclude Include="EMR\obj\manager\LogicManager.h" />
+    <ClInclude Include="EMR\obj\view\manager\ObjMouseManager.h" />
+    <ClInclude Include="EMR\obj\view\manager\ObjDrawManager.h" />
+    <ClInclude Include="EMR\obj\view\manager\TxtWinDrawManager.h" />
+    <ClInclude Include="EMR\obj\view\input\ButtonInput.h" />
+    <ClInclude Include="EMR\obj\view\ViewObj.h" />
+    <ClInclude Include="EMR\entrance\OperateMgr.h" />
+    <ClInclude Include="EMR\system\BaseMath.h" />
+    <ClInclude Include="EMR\system\BaseTools.h" />
+    <ClInclude Include="EMR\system\BaseIOTools.h" />
+    <ClInclude Include="EMR\system\GlobalTemplate.h" />
+    <ClInclude Include="EMR\templeteElement\BaseTempleteKeyboard.h" />
+    <ClInclude Include="EMR\templeteElement\BaseTempleteMouse.h" />
+    <ClInclude Include="EMR\templeteElement\BracketWidget\BracketWidget.h" />
+    <ClInclude Include="EMR\templeteElement\BracketWidget\BracketWidgetKeyboard.h" />
+    <ClInclude Include="EMR\templeteElement\ChoiceWidget\ChoiceWidgetTemplete.h" />
+    <ClInclude Include="EMR\templeteElement\ChoiceWidget\ChoiceWidgetTempleteParam.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelBaseLayout.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelCellData.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelCellDataRow.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelKeyboard.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelLayout.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelLayoutViewParam.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelMouseInputManager.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\Line.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\MeasureWH.h" />
+    <ClInclude Include="EMR\templeteElement\Excel\SelectView.h" />
+    <ClInclude Include="EMR\templeteElement\Formula\Menstruation\MenStruationDataParam.h" />
+    <ClInclude Include="EMR\templeteElement\Formula\Menstruation\MenstruationTemplete.h" />
+    <ClInclude Include="EMR\templeteElement\Formula\TempleteRowParam.h" />
+    <ClInclude Include="EMR\templeteElement\MacroWidget\MacroTemplete.h" />
+    <ClInclude Include="EMR\templeteElement\MacroWidget\MacroTempleteParam.h" />
+    <ClInclude Include="EMR\templeteElement\Structuration\StructurationTextParam.h" />
+    <ClInclude Include="EMR\templeteElement\Structuration\StructurationTextWidget.h" />
+    <ClInclude Include="EMR\templeteElement\TempleteTypeEnumeration.h" />
+    <ClInclude Include="EMR\templeteElement\TempleteViewObj.h" />
+    <ClInclude Include="EMR\templeteElement\TempleteViewObjMouseManager.h" />
+    <ClInclude Include="EMR\templeteElement\TextWidget\InputFilter.h" />
+    <ClInclude Include="EMR\templeteElement\TextWidget\NoCopyTextWidget.h" />
+    <ClInclude Include="EMR\templeteElement\TextWidget\NumberInputFilter.h" />
+    <ClInclude Include="EMR\templeteElement\TextWidget\TextWidget.h" />
+    <ClInclude Include="EMR\templeteElement\TextWidget\TextWidgetKeyboard.h" />
+    <ClInclude Include="EMR\templeteElement\TextWidget\TextWidgetMouse.h" />
+    <ClInclude Include="EMR\templeteElement\TextWidget\TextWidgetParam.h" />
+    <ClInclude Include="EMR\entrance\WriterInputManager.h" />
+    <ClInclude Include="GeneratedFiles\ui_emrclient.h" />
+    <ClInclude Include="EMR\templeteElement\TempleteViewObjKeyManager.h" />
+    <ClInclude Include="EMR\obj\view\layout\ScrollPlaceLayout.h" />
+    <ClInclude Include="EMR\obj\view\input\ImageMouseInput.h" />
+    <ClInclude Include="GeneratedFiles\ui_inspection.h" />
+    <ClInclude Include="EditImageWindow\Scene\MyGraphicsScene.h" />
+    <ClInclude Include="EditImageWindow\PictureShape.h" />
+    <ClInclude Include="EditImageWindow\Method\Txt\TextItem.h" />
+    <ClInclude Include="EMR\obj\action\ImageScaleAction.h" />
+    <ClInclude Include="EditImageWindow\Method\Pix\PixmapItem.h" />
+    <ClInclude Include="Template\SingletonTemplate.h" />
+    <ClInclude Include="tools\ConstCollection.h" />
+    <ClInclude Include="tools\HisConstCollection.h" />
+    <ClInclude Include="tools\qjson\json_parser.hh" />
+    <ClInclude Include="tools\qjson\json_scanner.h" />
+    <ClInclude Include="tools\qjson\location.hh" />
+    <ClInclude Include="tools\qjson\parser.h" />
+    <ClInclude Include="tools\qjson\position.hh" />
+    <ClInclude Include="tools\qjson\qjson_debug.h" />
+    <ClInclude Include="tools\qjson\qjson_export.h" />
+    <ClInclude Include="tools\qjson\qobjecthelper.h" />
+    <ClInclude Include="tools\qjson\serializer.h" />
+    <ClInclude Include="tools\qjson\stack.hh" />
+    <ClInclude Include="views\flowlayout.h" />
+    <ClInclude Include="views\globalvariable.h" />
+    <ClInclude Include="views\NavigationView.h" />
+    <ClInclude Include="views\propertySettingDlgs\attributeClick.h" />
+    <ClInclude Include="tools\qjson\parser_p.h" />
+    <ClInclude Include="EMR\obj\view\data\viewParam\MiddleButtonViewParam.h" />
+    <ClInclude Include="GeneratedFiles\ui_renamepopup.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\view\draw\DrawRowTop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\view\draw\DrawRowBottom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetTxtWidgetElementAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetWidgetElementPropertyAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\FileData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\AddTempletWidgetAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetChoiceWidgetAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetMacroWidgetAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetMenstruationWidgetAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\ExcelCellChangeLineAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\LineMoveAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\ExcelRelayoutAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetFocusAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\NewOrDeleteCellDataAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\NewOrDeleteLineAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetExcelCellPropertyAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetExcelPropertyAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetSysIntParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource6.h" />
+    <ClInclude Include="EMR\data\uiMsg\ShortcutKeyInputParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\logic\FlagFlashLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\factory\LogicFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\view\manager\TxtWinLogicManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetPagePropertyAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetParagraphOtherParamAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelCellPageMouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\view\manager\ExcelCrossParentMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\output\htmlOutPutManger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\uiMsg\SetAutorityInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelTemplete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\templeteElement\Excel\ExcelTempleteParamData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\uiMsg\UIMsgSetPageParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\uiMsg\UIMsgMedicalRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\logic\JudgePagePanelScrollLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditImageWindow\Method\Ellipse\EllipseItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditImageWindow\Method\Rect\RoundRectItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AttributeDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\data\CodeParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\temp\childrenMgr\NodeMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\data\NodeParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\temp\childrenMgr\NodeChildrenMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\UserInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\PatientInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\data\ParagraphCodeParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\ExcelVerticalLayoutAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetSysIntParamAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\uiMsg\UIMsgFindAndReplaceParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\templeteElement\unfoldChoiceWidget\UnfoldChoiceButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\templeteElement\unfoldChoiceWidget\UnfoldChoiceWidgetTemplete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\CrashStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\templeteElement\unfoldChoiceWidget\ChoiceItemTextWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\action\SetUnfoldChoiceWidgetAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\templeteElement\unfoldChoiceWidget\UnfoldChoiceWidgetTempleteParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_emrversion.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\obj\view\draw\DrawHorizontalLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\entrance\WriterLogicMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\crypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\ioapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\JlCompress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quaadler32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quachecksum32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quacrc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazip_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazipdir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazipfileinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazipnewinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\unzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\zip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\CompressTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\authority\AuthorityData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EMR\data\authority\AuthorityViewLineAndStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_adminlogin.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="views\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="emrclient.h" />
+    <CustomBuild Include="emrclient.ui" />
+    <CustomBuild Include="customDelegate\ccinputcombobox.h" />
+    <CustomBuild Include="customDelegate\CustomComboBoxDelegate.h" />
+    <CustomBuild Include="customDelegate\CustomLineEditNumbersDelegate.h" />
+    <CustomBuild Include="customDelegate\custompushbutton.h" />
+    <CustomBuild Include="customDelegate\CustomSpinBoxDelegate.h" />
+    <CustomBuild Include="customDelegate\CustomTableView.h" />
+    <CustomBuild Include="commonWidgets\TabWidgetCollection.h" />
+    <CustomBuild Include="customDelegate\TreeItemMimeData.h" />
+    <CustomBuild Include="customDelegate\treeWidget.h" />
+    <CustomBuild Include="dataModel\DBDataModel\DBManager.h" />
+    <CustomBuild Include="EMR\output\HtmlDocument.h" />
+    <CustomBuild Include="inspection.h" />
+    <CustomBuild Include="EditImageWindow\PictureEditWindow.h" />
+    <CustomBuild Include="toolbarclass.h" />
+    <CustomBuild Include="views\SimpleElementSettingWidget.h" />
+    <CustomBuild Include="views\selectmubandlg.h" />
+    <CustomBuild Include="views\addmubandlg.h" />
+    <CustomBuild Include="views\continueprintdlg.h" />
+    <CustomBuild Include="views\MainViewContainer.h" />
+    <CustomBuild Include="views\mubaneditdlg.h" />
+    <CustomBuild Include="views\MubanEditManagement.h" />
+    <CustomBuild Include="views\MubanPropertyModifyDlg.h" />
+    <CustomBuild Include="views\pharmacyapp.h" />
+    <CustomBuild Include="views\propertySettingDlgs\tablepropertydlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\StructuringPopup.h" />
+    <CustomBuild Include="views\propertySettingDlgs\structuringdlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\specialsymbol.h" />
+    <CustomBuild Include="views\propertySettingDlgs\selectionpropertydlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\SelectionPopup.h" />
+    <CustomBuild Include="views\propertySettingDlgs\RightClickMenu.h" />
+    <CustomBuild Include="views\propertySettingDlgs\ParagraphSettingPopup.h" />
+    <CustomBuild Include="views\propertySettingDlgs\pagesettingdlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\MacroPropertyPopup.h" />
+    <CustomBuild Include="views\propertySettingDlgs\keyworddlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\inputpromptdlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\FormulaDlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\CreateTableDlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\CellSplitDlg.h" />
+    <CustomBuild Include="views\propertySettingDlgs\cellpropertydlg.h" />
+    <CustomBuild Include="views\pharmacyManagement\pharmacyWithdrawalApplication.h" />
+    <CustomBuild Include="tools\qjson\serializerrunnable.h" />
+    <CustomBuild Include="tools\qjson\parserrunnable.h" />
+    <CustomBuild Include="tools\CommonNetWorkingRunnable.h" />
+    <CustomBuild Include="propertySettingDlgs\CreateTableDlg.h" />
+    <CustomBuild Include="EMR\entrance\MyAppEntrance.h" />
+    <CustomBuild Include="emrclient.qrc" />
+    <CustomBuild Include="inspection.ui" />
+    <CustomBuild Include="renamepopup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="renamepopup.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WindowPicture.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EMR\entrance\WriterManager.h" />
+    <CustomBuild Include="MessageBox.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EMR\entrance\UIInputManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditImageWindow\Dialog\AttributeDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditImageWindow\Dialog\AttributeDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EMR\system\BaseSystem.h" />
+    <CustomBuild Include="EMR\entrance\AutoSaveMgr.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="views\emrversion.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="views\emrversion.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quazip\quagzipfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quazip\quaziodevice.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quazip\quazipfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="views\adminlogin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="views\adminlogin.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\arrow.png" />
+    <Image Include="Resources\Circular.png" />
+    <Image Include="Resources\freeline.png" />
+    <Image Include="Resources\line.png" />
+    <Image Include="Resources\save.png" />
+    <Image Include="Resources\txt.png" />
+    <Image Include="Res\MenuIcon\AlignCenter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\AlignLeft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\AlignRight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\bold.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\case.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\ClearGrid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\copy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\do.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\formRegionSave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\italic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\paste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\scissors.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\tilt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\underline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\undo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\pinclose.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\MenuIcon\exe.ico" />
+    <Image Include="Resources\arrow_line_unchoose.png" />
+    <Image Include="Resources\circular_unchoose.png" />
+    <Image Include="Resources\down_0.png" />
+    <Image Include="Resources\down_1.png" />
+    <Image Include="Resources\ellipse_unchoose.png" />
+    <Image Include="Resources\enter.png" />
+    <Image Include="Resources\enter2.png" />
+    <Image Include="Resources\free_line_unchoose.png" />
+    <Image Include="Resources\middle_0.png" />
+    <Image Include="Resources\middle_1.png" />
+    <Image Include="Resources\point_line_unchoose.png" />
+    <Image Include="Resources\round_set.png" />
+    <Image Include="Resources\roundRect_unchoose.png" />
+    <Image Include="Resources\save_unchoose.png" />
+    <Image Include="Resources\txt_unchoose.png" />
+    <Image Include="Resources\up_0.png" />
+    <Image Include="Resources\up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{87651acf-cfe3-48e9-8da1-8804b98590cc}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e23a1a3b-039b-4e81-93be-1f024fae38a0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EMR\EmrClient.vcxproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmrClient.rc" />
+  </ItemGroup>
+</Project>
